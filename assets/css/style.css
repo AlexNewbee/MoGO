@@ -4,6 +4,7 @@ body {
 	font-size: 14px;
 	color: #333;
 	line-height: 1.6;
+	font-weight: regular;
 }
 
 *,
@@ -29,5 +30,39 @@ h1,h2,h3,h4,h5,h6 {
 	height: 100vh;
 	background: url("../images/intro.jpg") center no-repeat;
 	-webkit-background-size: cover;
-	background-size: cover;  
+	background-size: cover;
+
+}
+
+/*Header*/
+.header {
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	color: #fff;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.nav {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: #fff;
+
+	transition: color .2s linear;
+}
+
+.nav_link:hover {
+	color: #fbdd89;
+
 }
