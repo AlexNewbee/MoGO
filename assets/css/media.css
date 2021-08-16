@@ -1,0 +1,257 @@
+@media (max-width:1200px) {
+
+		/*--Intro--*/
+	.into_suptitle {
+		font-size: 52px;
+	}
+	.intro_title {
+		font-size: 120px;
+	}
+
+	/*Reviews*/
+
+	.reviews_text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width:990px) {
+
+		/*--Intro--*/
+	.into_suptitle {
+		font-size: 52px;
+	}
+	.intro_title {
+		font-size: 120px;
+	}
+
+  /* Statistics */
+
+  .stat_item {
+    padding: 60px 25px 60px;
+  }
+
+	/*Reviews*/
+
+	.reviews {
+		margin: 0 60px;
+	}
+
+	.reviews_photo {
+		width: 150px;
+		height: 150px;
+	}
+
+	.reviews_item {
+		margin-left: 175px;
+
+	}
+}
+
+@media (max-width:770px) {
+
+	/*--Intro--*/
+
+	.nav {
+		display: none;
+	}
+
+	.into_suptitle {
+		font-size: 32px;
+	}
+	.intro_title {
+		font-size:80px;
+	}
+
+	.slider_item.active:before {
+		width: 50%;
+	}
+
+	/*--Section--*/
+
+	.section {
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+
+	.section_title:after {
+		margin: 20px auto 25px;
+	}
+
+	.section--devices {
+		padding-bottom: 0;
+	}
+
+	/*About*/
+
+	.about {
+		margin-top: 0px;
+
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.about_item {
+		margin-bottom: 10px;
+		width: 100%;
+		max-width: 380px;
+	}
+
+	.about_item:last-child {
+		margin-bottom: 0px;
+	}
+
+	.section_header {
+		margin-bottom: 25px;
+	}
+
+  /* Statistics */
+
+	.stat {
+		flex-wrap: wrap;
+	}
+
+  .stat_item {
+    padding: 40px 25px 40px;
+    border-top: 1px solid #b5eae0;
+  }
+
+  /*Services*/
+
+  .services {
+    padding-top: 30px;
+  }
+
+  .services_item {
+  	width: 50%;
+  }
+
+  .services_item--border {
+  	border-bottom: none;
+	}
+
+	/*We do*/
+
+	.wedo {
+		flex-wrap: wrap;
+	}
+
+	.wedo__img {
+		display: none;
+	}
+
+	.wedo_item {
+		width: 100%;
+	}
+
+	/*Reviews*/
+
+	.reviews_btn {
+		top: 20%;
+	}
+
+	.reviews {
+		margin: 0 5px;
+	}
+
+	.reviews_photo {
+		position: static;
+		transform: translateY(0);
+		margin: 0 auto 20px;
+	}
+
+	.reviews_item {
+		margin-left: 0;
+	}
+
+	/*costumers*/
+
+	.costumers {
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+
+	.costumer_logo {
+		width: 33%;
+	}
+
+	/*Works*/
+
+	.works {
+		flex-wrap: wrap;
+	}
+
+	.works_column {
+		width: 50%;
+	}
+
+	/*What people say*/
+
+	.say_item {
+		width: 100%;
+	}
+
+}
+
+@media (max-width:575px) {
+
+	/*--Intro--*/
+	.into_suptitle {
+		font-size: 1px;
+		line-height: 0.1;
+	}
+	.intro_title {
+		font-size: 50px;
+	}
+
+
+	.slider_num {
+		font-size: 20px;
+	}
+
+	.slider_text {
+		font-size: 9px;
+	}
+
+  /* Statistics */
+
+  .stat_item {
+    padding: 25px 25px 25px;
+  }
+
+  /*Services*/
+
+  .services_item {
+  	width: 100%;
+		margin-bottom: 0;
+  }
+
+	/*Devices*/
+
+	.devices {
+		width: 320px;
+	}
+
+	.devices_item--iphone {
+		width: 180px;
+		bottom: -50px;
+		right: -80px;
+	}
+
+	/*Card */
+
+	.card {
+		flex-wrap: wrap;
+	}
+
+	.card_item {
+		margin: 0 auto;
+	}
+
+	/*costumers*/
+
+	.costumer_logo {
+		width: 50%;
+	}
+
+}
